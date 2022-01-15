@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ecf5ff;
+  height: 100vh;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 150px;
+  height: 30px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: transparent;
+  border: 2px solid #5AA7EB;
+}
+
+progress[value]::-webkit-progress-value {
+  background: #5AA7EB;
+  background-size: 40px 20px, 10%;
+}
+
+.score-container {
+    text-align: center;
+}
+
+.question-meter {
+    text-align: center;
+}
+
+.child1, .child2, .child3, .child4 {
+    border: 0.5px solid #5AA7EB;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.child1:hover, .child2:hover, .child3:hover, .child4:hover {
+    box-shadow: 0 5px 15px #5AA7EB;
+    cursor: pointer;
+}
+
+.child-inner {
+    background-color: #5AA7EB;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 15px 0 0;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    color: #5AA7EB;
+}
+
+.start-btn {
+    border: 1px solid #5AA7EB;
+    padding: 10px 70px;
+    background-color: white;
+    cursor: pointer;
+    color: #5AA7EB;
+}
+
+.start-btn:hover {
+    border: 1px solid #5AA7EB;
+    padding: 10px 70px;
+    background-color: white;
+    box-shadow: 0 5px 15px #5AA7EB;
+    cursor: pointer;
+}
